@@ -6,11 +6,6 @@ Merhaba, ben **Beraat Kaan**. Yazılım geliştirmeyi öğrenmek ve günlük hay
 
 Masaüstü uygulamaları, yapay zekâ ve telefon–bilgisayar bağlantısı ilgimi çekiyor. Bu profilde öğrenme sürecimi ve zamanla geliştireceğim projeleri paylaşacağım.
 
-### Şu anki hedeflerim
-
-- Git ve GitHub kullanımını öğrenmek.
-- Programlamanın temellerini uygulama yaparak geliştirmek.
-- İlk projemi hazırlayıp nasıl çalıştığını anlaşılır biçimde anlatmak.
 
 ### İlgi alanlarım
 
