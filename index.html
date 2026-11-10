@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1323">
+  <meta name="description" content="Beraat Kaan’ın kişisel sayfası. Yazılım öğrenme hedefleri, masaüstü uygulamaları ve yapay zekâya ilgisi.">
+  <title>Beraat Kaan · Kişisel Portföy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --base: #0b1323;
+      --ink: #eef4ff;
+      --secondary: #b2c0d6;
+      --line: #2b3b55;
+      --accent: #9bcdf9;
+      font-family: Inter, "Segoe UI", system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(ellipse at 88% 3%, #182f50, transparent 56%), var(--base);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+    .wrap { width: min(1100px, calc(100% - 56px)); margin-inline: auto; }
+    .site-header { border-bottom: 1px solid var(--line); }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 12px 24px; padding-block: 19px; }
+    .brand { font-weight: 650; }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 10px 24px; color: var(--secondary); font-size: .91rem; }
+    .nav-links a:hover, footer a:hover { color: var(--ink); text-decoration: underline; }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+      align-items: center;
+      gap: 44px;
+      padding-block: clamp(58px, 9vw, 113px);
+    }
+    .handle { color: var(--accent); font: .9rem/1.4 "IBM Plex Mono", Consolas, monospace; margin: 0 0 12px; }
+    h1 { font-size: clamp(3.15rem, 8vw, 6.5rem); line-height: .98; letter-spacing: -.069em; margin: 0 0 20px; }
+    .subtitle { color: #cfddf1; font-size: clamp(1.25rem, 2.6vw, 1.85rem); margin: 0 0 13px; letter-spacing: -.025em; }
+    .intro { color: var(--secondary); max-width: 33rem; margin: 0 0 25px; }
+    .github-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .65rem;
+      border: 1px solid #6794bb;
+      border-radius: 7px;
+      padding: 9px 15px;
+      background: #c1e0ff;
+      color: #0a1a2b;
+      font-weight: 650;
+    }
+    .github-link:hover { background: #e2f0ff; }
+    .code-art {
+      display: grid;
+      place-items: center;
+      min-height: 240px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background:
+        linear-gradient(90deg, #91baf411 1px, transparent 1px) 0 0 / 32px 32px,
+        linear-gradient(#91baf411 1px, transparent 1px) 0 0 / 32px 32px,
+        radial-gradient(ellipse at center, #25476d66, #0c1728);
+      font: 500 clamp(3.3rem, 8vw, 6.7rem)/1 "IBM Plex Mono", Consolas, monospace;
+      letter-spacing: -.1em;
+      color: #a4cdf3;
+    }
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px 50px;
+      padding-block: 34px 44px;
+      border-top: 1px solid var(--line);
+    }
+    h2 { margin: 0 0 10px; font-size: 1.4rem; letter-spacing: -.026em; }
+    .details p, .details ul { color: var(--secondary); margin: 0; }
+    .details ul { padding-inline-start: 1.18rem; }
+    .details li + li { margin-top: 5px; }
+    footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px 22px; padding: 18px 0 28px; border-top: 1px solid var(--line); color: var(--secondary); font-size: .88rem; }
+    @media (max-width: 720px) {
+      .wrap { width: calc(100% - 36px); }
+      .hero, .details { grid-template-columns: minmax(0, 1fr); }
+      .hero { padding-block: 49px 34px; gap: 28px; }
+      .code-art { min-height: 128px; }
+    }
+    @media (max-width: 400px) {
+      .nav { flex-wrap: wrap; }
+      .nav-links { gap: 8px 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Ana menü">
+      <a class="brand" href="#baslangic">Beraat Kaan</a>
+      <div class="nav-links">
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#hedefler">Hedefler</a>
+        <a href="https://github.com/beraatkaancan">GitHub ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main class="wrap" id="baslangic">
+    <section class="hero" aria-labelledby="isim">
+      <div>
+        <p class="handle">@beraatkaancan</p>
+        <h1 id="isim">Beraat Kaan</h1>
+        <p class="subtitle">Yazılım öğrenme yolculuğum</p>
+        <p class="intro">Günlük hayatta işe yarayan uygulamalar geliştirmeyi öğreniyorum.</p>
+        <a class="github-link" href="https://github.com/beraatkaancan">GitHub profilim <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="code-art" aria-hidden="true">&lt;/&gt;</div>
+    </section>
+    <div class="details">
+      <section id="hakkimda" aria-labelledby="hakkimda-baslik">
+        <h2 id="hakkimda-baslik">Hakkımda</h2>
+        <p>Masaüstü uygulamaları, yapay zekâ ve telefonla bilgisayar arasında bağlantı kuran araçlar ilgimi çekiyor.</p>
+      </section>
+      <section id="hedefler" aria-labelledby="hedefler-baslik">
+        <h2 id="hedefler-baslik">Öğrenme hedeflerim</h2>
+        <ul>
+          <li>Git ve GitHub kullanımını öğrenmek</li>
+          <li>Programlamanın temellerini uygulayarak geliştirmek</li>
+          <li>İlk projemi hazırlayıp nasıl çalıştığını anlatmak</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="wrap">
+    <span>Beraat Kaan</span>
+    <a href="https://github.com/beraatkaancan">@beraatkaancan</a>
+  </footer>
+</body>
+</html>
