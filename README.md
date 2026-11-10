@@ -1,6 +1,6 @@
 ![Beraat Kaan — Yazılım öğrenme yolculuğum](assets/banner.svg)
 
-**[↗ Lacivert portföy sitemi aç](https://beraatkaancan.github.io/beraatkaancan/)**
+**[↗  Portföy sitemi aç](https://beraatkaancan.github.io/beraatkaancan/)**
 
 ### Hakkımda
 
