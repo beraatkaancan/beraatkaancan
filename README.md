@@ -1,16 +1,21 @@
-## Hi there 👋
+![Beraat Kaan — Yazılım öğrenme yolculuğum](assets/banner.svg)
 
-<!--
-**beraatkaancan/beraatkaancan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Hakkımda
 
-Here are some ideas to get you started:
+Merhaba, ben **Beraat Kaan**. Yazılım geliştirmeyi öğrenmek ve günlük hayatta işe yarayan uygulamalar yapmak istiyorum.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Masaüstü uygulamaları, yapay zekâ ve telefon–bilgisayar bağlantısı ilgimi çekiyor. Bu profilde öğrenme sürecimi ve zamanla geliştireceğim projeleri paylaşacağım.
+
+### Şu anki hedeflerim
+
+- Git ve GitHub kullanımını öğrenmek.
+- Programlamanın temellerini uygulama yaparak geliştirmek.
+- İlk projemi hazırlayıp nasıl çalıştığını anlaşılır biçimde anlatmak.
+
+### İlgi alanlarım
+
+`Masaüstü uygulamaları` · `Yapay zekâ` · `Günlük işleri kolaylaştıran araçlar`
+
+<br>
+
+<sub>GitHub · [@beraatkaancan](https://github.com/beraatkaancan)</sub>
